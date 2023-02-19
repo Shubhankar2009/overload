@@ -3,13 +3,12 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth"
 import { getFirestore } from 'firebase/firestore'
 
 let firebaseConfig = {
-    apiKey: "AIzaSyCb1D1HBn8bizR8ZpIPMbKLiYAljf-Bzz4",
-    authDomain: "meet-clone-e0c0a.firebaseapp.com",
-    databaseURL: "https://meet-clone-e0c0a-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "meet-clone-e0c0a",
-    storageBucket: "meet-clone-e0c0a.appspot.com",
-    messagingSenderId: "1007338783870",
-    appId: "1:1007338783870:web:651519b12c354d2fc0042f"
+    apiKey: "AIzaSyDcrtGZ5DYXSUXJnoocpxw6Cawo3xxc1LM",
+    authDomain: "naari-10f91.firebaseapp.com",
+    projectId: "naari-10f91",
+    storageBucket: "naari-10f91.appspot.com",
+    messagingSenderId: "165387598514",
+    appId: "1:165387598514:web:c135fb5f339fd3ac9c67ab"
 };
 
 const app = initializeApp(firebaseConfig);
