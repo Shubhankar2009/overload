@@ -54,7 +54,7 @@ export default function Profile() {
                     return <div className="post">
                         <h2>{post.name}</h2>
                         <p>FIELD : {post.field}</p>
-                        <p>TASK : {post.task}</p>
+                        <p>TASK : {post.work}</p>
                         <button className='danger_btn' onClick={()=>{deletePost(post.id)}}>Delete</button>
                         
                     </div>
