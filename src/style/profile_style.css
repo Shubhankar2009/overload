@@ -1,0 +1,17 @@
+.danger_btn {
+    height: 60px;
+    width: 200px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin: 30px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+body {
+    margin-top: 200px;
+}

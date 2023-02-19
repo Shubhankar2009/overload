@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+    margin-left: 1%;
+    height: 600px;
+    background-color: lightblue;
+    width: 150px;
+    border-radius: 50px;
+    position: fixed;
+    top: 60px;
+}
+
+.navbar_items {
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.help {
+    height: 88px;
+    width: 88px;
+    background: url("../assets/namaste.gif");
+    background-size: cover;
+    position: fixed;
+}
+
+.profile {
+    height: 88px;
+    width: 88px;
+    background: url("../assets/profile.gif");
+    background-size: cover;
+    position: fixed;
+}
+
+.silly_shots {
+    height: 88px;
+    width: 88px;
+    background: url("../assets/camera.gif");
+    background-size: cover;
+    position: fixed;
+}
+
+.nav_item_text {
+    height: 64px;
+    position: relative;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+    transition: all;
+    transition-duration: 500ms;
+    top: 70px;
+}

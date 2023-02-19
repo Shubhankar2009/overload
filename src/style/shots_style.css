@@ -1,0 +1,62 @@
+.add {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 50px;
+    float: right;
+    right: 50px;
+    border: none;
+    position: fixed;
+    cursor: pointer;
+}
+
+.post {
+    padding: 20px;
+    border: 1px double black;
+    border-radius: 20px;
+    margin: 20px;
+    height: auto;
+    width: 500px;
+}
+
+.post>h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.post>p {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.all_shots {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#do_help {
+    height: auto;
+    width: auto;
+    background-color: dodgerblue;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin: 30px;
+    cursor: pointer;
+    min-width: 200px;
+    min-height: 60px;
+}
